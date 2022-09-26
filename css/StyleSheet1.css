@@ -1,0 +1,68 @@
+﻿html, body {
+    background-color: rgb(64,64,64);
+    height: 100%;
+    color: white;
+}
+
+a {
+    color : white;
+}
+
+
+#home_page {
+    display : inline-block;
+    height: 900px;
+    width: 100%;
+    background-image: url(../images/background/pexels-pixabay-270348.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    text-align : center;
+}
+
+#home_page h1 {
+    width: 400px;
+    margin: auto;
+    font-size : 45px;
+    font-weight: bolder;
+    vertical-align:middle;
+    padding-top: 300px;
+}
+
+section {
+    margin: 5% 10% 5% 10%;
+}
+
+#profile {
+    display: flex;
+    
+}
+
+#profile div {
+    margin-left : 10px;
+    font-size : 24px;
+}
+
+#profile h2 {
+    margin-left : 350px;
+    font-size : 40px;
+}
+
+#profile_img {
+    height: 300px;
+    width: 300px;
+}
+
+footer {
+    height: 100px;
+    width: 100%;
+    /*background-color: #137ea7;*/
+    background-attachment : scroll;
+    position: fixed;
+    bottom : 0;
+}
+
+footer div {
+
+    margin-left : 50px;
+}

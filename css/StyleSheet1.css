@@ -33,19 +33,23 @@ section {
     margin: 5% 10% 5% 10%;
 }
 
-#profile {
+article {
     display: flex;
     
 }
 
-#profile div {
-    margin-left : 10px;
-    font-size : 24px;
+article div {
+    margin-left: 10px;
+    font-size: 24px;
 }
 
-#profile h2 {
-    margin-left : 350px;
-    font-size : 40px;
+    article h2 {
+        margin-left: 350px;
+        font-size: 40px;
+    }
+
+#Mes_Projets {
+    margin-left : 700px;
 }
 
 #profile_img {
@@ -53,10 +57,19 @@ section {
     width: 300px;
 }
 
+#B-tree {
+    width : 600px;
+    height : 300px;
+}
+
+#end_page{
+    height : 100px;
+}
+
 footer {
     height: 100px;
     width: 100%;
-    /*background-color: #137ea7;*/
+    background-color: #137ea7;
     background-attachment : scroll;
     position: fixed;
     bottom : 0;
